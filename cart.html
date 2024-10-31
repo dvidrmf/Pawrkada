@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Pawrkada</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/Logo.png" alt="Logo"></a>
+        <div class="mobile menu">
+            <img src="images/Search.svg" alt="search button">
+            <a href="cart.html"><img src="images/cart.svg" alt="Shopping cart"></a>
+            <img onclick="menu()" class="hamburger" src="images/menu.svg" alt="hamburger menu">
+        </div>
+
+        <div id="mnav">
+            <a href="index.html">Home</a>
+            <a href="category.html">Shop</a>
+        </div>
+
+        <div class="tablet menu">
+            <div class="search-bar">
+                <p>Search products ...</p>
+                <img src="images/Search.svg" alt="">
+            </div>
+            <a href="cart.html"><img src="images/cart.svg" alt="Shopping cart"></a>
+        </div>
+
+        <div class="desktop menu">
+            <div class="search-bar">
+                <p>Search products ...</p>
+                <div class="dropdown">
+                    <a href="category.html" class="dropdown-button">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="showmore.html">SHOP ALL</a>
+                        <a href="">CATS</a>
+                        <a href="">DOGS</a>
+                        <a href="">FISH</a>
+                        <a href="">BIRDS</a>
+                        <a href="">HAMSTER</a>
+                        <a href="">BATH</a>               
+                        <a href="">ACCESSORIES</a>
+                        <a href="showmore.html">BUNDLES</a>
+                    </div>
+                </div>
+            </div>
+            <a href="cart.html"><img src="images/cart.svg" alt="Shopping cart"></a>
+        </div>
+
+        
+    </header>
+    
+    <main>
+        <div class="cart">
+            <h1>CART</h1>
+
+            <table class="mobile">
+                <tr>
+                <td><img src="images/carrier.png" alt=""></td>
+                <td>Katryna Pet Carrier</td>
+                <td>306.75</td>
+                <td>Remove</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Total</td>
+                    <td>306.75</td>
+                </tr>
+
+            </table>
+
+            <table class="tablet desktop">
+                <tr>
+                    <th>REFERENCE NUMBER</th>
+                    <th>PRODUCT NAME</th>
+                    <th>QTY</th>
+                    <th>VARIANT</th>
+                    <th>ORIGINAL PRICE</th>
+                    <th>DISCOUNTED PRICE</th>
+                </tr>
+                <tr>
+                    <td><img src="images/carrier.png" alt=""> #124567</td>
+                    <td>Katryna Pet Carrier</td>
+                    <td>1</td>
+                    <td>Pink</td>
+                    <td><strike>456.89</strike></td>
+                    <td>306.75</td>
+                    <td>remove</td>
+                </tr>
+                <tr>
+                    <td><img src="images/cf.png" alt=""> #425567</td>
+                    <td>Breathe Feline</td>
+                    <td>3</td>
+                    <td>Salmon</td>
+                    <td><strike>306.89</strike></td>
+                    <td>233.15</td>
+                    <td>remove</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Total</td>
+                    <td>306.75</td>
+                </tr>
+            </table>
+
+            <a class="bts" href="index.html"><h3>BACK TO SHOPPING</h3></a>
+            <a href="checkout.html"><p>CHECKOUT</p></a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="fc">
+                <div>
+                   <h5>PAWRKADA</h5>
+                   <p>Fur-tastic treats and paw-some gear for your purr-fect squad of meowkada and barkada! Thanks you, hope we help your tails wags and purr.</p>
+                </div>
+                <div>
+                    <h5>CONTACT US</h5>
+                    <p>Any complaints? Reach us through our email to help us improve our service.</p>
+                    <form action="">
+                        <input type="email" placeholder="Enter email address">
+                        <button type="submit" value="submit">send</button>
+                    </form>
+                </div>
+
+            <div>
+                <h5>NAVIGATION</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Brands</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Faq's
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bf">
+            <div class="ibf">
+                <p>©2024 Pawrkada. All Rights Reserved. Images used for Educational Purposes</p>
+                <hr>
+                <div class="socmed">
+                    <a href=""><img src="images/fb.svg" alt="facebook"></a>
+                    <a href=""><img src="images/x.svg" alt=""></a>
+                    <a href=""><img src="images/ig.svg" alt=""></a>
+                    <a href=""><img src="images/google.svg" alt=""></a>
+                    <p>MADE BY <strong>RYNA MAE DAVID</strong> </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

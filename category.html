@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Pawrkada</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/Logo.png" alt="Logo"></a>
+        <div class="mobile menu">
+            <img src="images/Search.svg" alt="search button">
+            <a href="cart.html"><img src="images/cart.svg" alt="Shopping cart"></a>
+            <img onclick="menu()" class="hamburger" src="images/menu.svg" alt="hamburger menu">
+        </div>
+
+        <div id="mnav">
+            <a href="index.html">Home</a>
+            <a href="category.html">Shop</a>
+        </div>
+
+        <div class="tablet menu">
+            <div class="search-bar">
+                <p>Search products ...</p>
+                <img src="images/Search.svg" alt="">
+            </div>
+            <a href="cart.html"><img src="images/cart.svg" alt="Shopping cart"></a>
+        </div>
+
+        <div class="desktop menu">
+            <div class="search-bar">
+                <p>Search products ...</p>
+                <div class="dropdown">
+                    <a href="category.html" class="dropdown-button">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="showmore.html">SHOP ALL</a>
+                        <a href="">CATS</a>
+                        <a href="">DOGS</a>
+                        <a href="">FISH</a>
+                        <a href="">BIRDS</a>
+                        <a href="">HAMSTER</a>
+                        <a href="">BATH</a>               
+                        <a href="">ACCESSORIES</a>
+                        <a href="showmore.html">BUNDLES</a>
+                    </div>
+                </div>
+            </div>
+            <a href="cart.html"><img src="images/cart.svg" alt="Shopping cart"></a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="mobile category">
+            <h3>CATEGORIES</h3>
+            <div class="bowl">
+                <img src="images/bowl.png" alt="bowls">
+                <h3>BOWLS</h3>
+            </div>
+            <img src="images/left.svg" alt="">
+            <img class="right" src="images/right.svg" alt="">
+            
+        </div>
+
+        <div class="tablet category">
+            <h3 class="catg">CATEGORIES</h3>
+            <div class="cf">
+                <div class="bowl">
+                    <img src="images/bowlt.png" alt="bowls">
+                    <h3>BOWLS</h3>
+                </div>
+                <div class="bowl">
+                    <img src="images/carrier.png" alt="carrier">
+                    <h3>CARRIER</h3>
+                </div>
+                <div class="bowl">
+                    <img src="images/treats.png" alt="treats">
+                    <h3>TREATS</h3>
+                </div>
+                <div class="bowl">
+                    <img src="images/litter.png" alt="litter">
+                    <h3>LITTER</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile feature">
+            <div class="container">
+                <div class="pic"><img class="item" src="images/cf.png" alt="item"></div>
+
+                <div class="ch">
+                    <h5 class="cat">Cats</h5>
+                    <div><img src="images/heart.svg" alt="heart"></div>
+                    <h5 class="it">Tik Cat Deboned</h5>
+                </div>
+
+                <div class="review">
+                    <img src="images/star.svg" alt="5 star">
+                    <p>(5.2k)</p>
+
+                </div>    
+
+                <div class="ps">
+                    <p class="price">₱175.00</p>
+                    <p class="strike"><strike>₱240.00</strike></p>
+                </div>
+
+                
+                <div class="atc">
+                    <h3>ADD TO CART   ></h3>
+                </div>
+            </div>
+        
+            <div class="container">
+                <div class="pic"><img class="item" src="images/bed.png" alt="item"></div>
+
+                <div class="ch">
+                    <h5 class="cat">Cats</h5>
+                    <div><img src="images/heart.svg" alt="heart"></div>
+                    <h5 class="it">Akikaymi Bed</h5>
+                </div>
+
+                <div class="review">
+                    <img src="images/star.svg" alt="5 star">
+                    <p>(5.2k)</p>
+
+                </div>    
+
+                <div class="ps">
+                    <p class="price">₱175.00</p>
+                    <p class="strike"><strike>₱240.00</strike></p>
+                </div>
+
+                
+                <div class="atc">
+                    <h3>ADD TO CART   ></h3>
+                </div>
+            
+            </div>
+
+            <div class="container">
+                <div class="pic"><img class="item" src="images/dft.png" alt="item"></div>
+
+                <div class="ch">
+                    <h5 class="cat">Cats</h5>
+                    <div><img src="images/heart.svg" alt="heart"></div>
+                    <h5 class="it">Dr. Feline Treats</h5>
+                </div>
+
+                <div class="review">
+                    <img src="images/star.svg" alt="5 star">
+                    <p>(5.2k)</p>
+
+                </div>    
+
+                <div class="ps">
+                    <p class="price">₱175.00</p>
+                    <p class="strike"><strike>₱240.00</strike></p>
+                </div>
+
+                
+                <div class="atc">
+                    <h3>ADD TO CART   ></h3>
+                </div>
+            </div>
+
+            <div class="container" onclick="on()">
+                <div class="pic"><img class="item" src="images/tcb.png" alt="item"></div>
+
+                <div class="ch">
+                    <h5 class="cat">Cats</h5>
+                    <div><img src="images/heart.svg" alt="heart"></div>
+                    <h5 class="it">Tiki Cat Bundle</h5>
+                </div>
+
+                <div class="review">
+                    <img src="images/star.svg" alt="5 star">
+                    <p>(5.2k)</p>
+
+                </div>    
+
+                <div class="ps">
+                    <p class="price">₱175.00</p>
+                    <p class="strike"><strike>₱240.00</strike></p>
+                </div>
+
+                
+                <div class="atc">
+                    <h3>ADD TO CART   ></h3>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="pic"><img class="item" src="images/vg.png" alt="item"></div>
+
+                <div class="ch">
+                    <h5 class="cat">Cats</h5>
+                    <div><img src="images/heart.svg" alt="heart"></div>
+                    <h5 class="it">Vivacraft Gravy</h5>
+                </div>
+
+                <div class="review">
+                    <img src="images/star.svg" alt="5 star">
+                    <p>(5.2k)</p>
+
+                </div>    
+
+                <div class="ps">
+                    <p class="price">₱175.00</p>
+                    <p class="strike"><strike>₱240.00</strike></p>
+                </div>
+
+                
+                <div class="atc">
+                    <h3>ADD TO CART   ></h3>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="pic"><img class="item" src="images/sb.png" alt="item"></div>
+
+                <div class="ch">
+                    <h5 class="cat">Cats</h5>
+                    <div><img src="images/heart.svg" alt="heart"></div>
+                    <h5 class="it">Stainless Bowl</h5>
+                </div>
+
+                <div class="review">
+                    <img src="images/star.svg" alt="5 star">
+                    <p>(5.2k)</p>
+
+                </div>    
+
+                <div class="ps">
+                    <p class="price">₱175.00</p>
+                    <p class="strike"><strike>₱240.00</strike></p>
+                </div>
+
+                
+                <div class="atc">
+                    <h3>ADD TO CART   ></h3>
+                </div>
+            </div>
+
+                
+            </div>
+            
+        </div>
+
+        <div class="ctgc tablet">
+            <div class="cti">
+                <div>
+                    <p>Category</p>
+                    <h2>CATS</h2>
+                </div>
+                
+                <div class="sbr">
+                    <p>Sort by:</p>
+                    <p>Relevance</p>
+                </div>
+            </div>
+                <div class="popular">
+                <div class="container">
+                    <div class="pic"><img class="item" src="images/cf.png" alt="item"></div>
+
+                    <div class="ch">
+                        <h5 class="cat">Cats</h5>
+                        <div><img src="images/heart.svg" alt="heart"></div>
+                        <h5 class="it">Tik Cat Deboned</h5>
+                    </div>
+
+                    <div class="review">
+                        <img src="images/star.svg" alt="5 star">
+                        <p>(5.2k)</p>
+
+                    </div>    
+
+                    <div class="ps">
+                        <p class="price">₱175.00</p>
+                        <p class="strike"><strike>₱240.00</strike></p>
+                    </div>
+
+                    
+                    <div class="atc">
+                        <h3>ADD TO CART   ></h3>
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="pic"><img class="item" src="images/bed.png" alt="item"></div>
+
+                    <div class="ch">
+                        <h5 class="cat">Cats</h5>
+                        <div><img src="images/heart.svg" alt="heart"></div>
+                        <h5 class="it">Akikaymi Bed</h5>
+                    </div>
+
+                    <div class="review">
+                        <img src="images/star.svg" alt="5 star">
+                        <p>(5.2k)</p>
+
+                    </div>    
+
+                    <div class="ps">
+                        <p class="price">₱175.00</p>
+                        <p class="strike"><strike>₱240.00</strike></p>
+                    </div>
+
+                    
+                    <div class="atc">
+                        <h3>ADD TO CART   ></h3>
+                    </div>
+                
+                </div>
+
+                <div class="container">
+                    <div class="pic"><img class="item" src="images/dft.png" alt="item"></div>
+
+                    <div class="ch">
+                        <h5 class="cat">Cats</h5>
+                        <div><img src="images/heart.svg" alt="heart"></div>
+                        <h5 class="it">Dr. Feline Treats</h5>
+                    </div>
+
+                    <div class="review">
+                        <img src="images/star.svg" alt="5 star">
+                        <p>(5.2k)</p>
+
+                    </div>    
+
+                    <div class="ps">
+                        <p class="price">₱175.00</p>
+                        <p class="strike"><strike>₱240.00</strike></p>
+                    </div>
+
+                    
+                    <div class="atc">
+                        <h3>ADD TO CART   ></h3>
+                    </div>
+                </div>
+
+                <div class="container" onclick="on()">
+                    <div class="pic"><img class="item" src="images/tcb.png" alt="item"></div>
+
+                    <div class="ch">
+                        <h5 class="cat">Cats</h5>
+                        <div><img src="images/heart.svg" alt="heart"></div>
+                        <h5 class="it">Tiki Cat Bundle</h5>
+                    </div>
+
+                    <div class="review">
+                        <img src="images/star.svg" alt="5 star">
+                        <p>(5.2k)</p>
+
+                    </div>    
+
+                    <div class="ps">
+                        <p class="price">₱175.00</p>
+                        <p class="strike"><strike>₱240.00</strike></p>
+                    </div>
+
+                    
+                    <div class="atc">
+                        <h3>ADD TO CART   ></h3>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="pic"><img class="item" src="images/vg.png" alt="item"></div>
+
+                    <div class="ch">
+                        <h5 class="cat">Cats</h5>
+                        <div><img src="images/heart.svg" alt="heart"></div>
+                        <h5 class="it">Vivacraft Gravy</h5>
+                    </div>
+
+                    <div class="review">
+                        <img src="images/star.svg" alt="5 star">
+                        <p>(5.2k)</p>
+
+                    </div>    
+
+                    <div class="ps">
+                        <p class="price">₱175.00</p>
+                        <p class="strike"><strike>₱240.00</strike></p>
+                    </div>
+
+                    
+                    <div class="atc">
+                        <h3>ADD TO CART   ></h3>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="pic"><img class="item" src="images/sb.png" alt="item"></div>
+
+                    <div class="ch">
+                        <h5 class="cat">Cats</h5>
+                        <div><img src="images/heart.svg" alt="heart"></div>
+                        <h5 class="it">Stainless Bowl</h5>
+                    </div>
+
+                    <div class="review">
+                        <img src="images/star.svg" alt="5 star">
+                        <p>(5.2k)</p>
+
+                    </div>    
+
+                    <div class="ps">
+                        <p class="price">₱175.00</p>
+                        <p class="strike"><strike>₱240.00</strike></p>
+                    </div>
+
+                    
+                    <div class="atc">
+                        <h3>ADD TO CART   ></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="categories desktop">
+            <h1>CATEGORIES</h1>
+            <div class="cscf">
+                <div class="csco">
+                    <a href="showmore.html"><img src="images/shopall.png" alt=""></a>
+                    <hr>
+                    <p>Shop All</p>
+                </div>
+
+                <div class="csco">
+                    <img src="images/toy.png" alt="">
+                    <hr>
+                    <p>Toys</p>
+                </div>
+
+                <div class="csco">
+                    <img src="images/cf.png" alt="">
+                    <hr>
+                    <p>Wet Dog Food</p>
+                </div>
+
+                <div class="csco">
+                    <img src="images/bowlt.png" alt="">
+                    <hr>
+                    <p>Dry Dog Food</p>
+                </div>
+
+                <div class="csco">
+                    <img src="images/vg.png" alt="">
+                    <hr>
+                    <p>Wet Cat Food</p>
+                </div>
+
+                <div class="csco">
+                    <img src="images/dcf.png" alt="">
+                    <hr>
+                    <p>Dry Cat Food</p>
+                </div>
+
+                <div class="csco">
+                    <img src="images/bowl.png" alt="">
+                    <hr>
+                    <p>Bowls</p>
+                </div>
+
+                <div class="csco">
+                    <img src="images/bed.png" alt="">
+                    <hr>
+                    <p>Beds</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="overlay" onclick="off()">
+            <div class="ino" onclick="on()">
+                <p>Cat / Bundles</p>
+                
+                <div class="info">
+                    <div>
+                        <img src="images/tcb.png" alt=""> 
+                        <h3>Tiki Cat Bundle</h3>
+                        <img src="images/star.svg" alt="5 star">
+                        <p>(5.2k)</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>10 kg MeowMax Cat Kibble</li>
+                                <li>15 pcs Purrfectly Cat Crunch</li>
+                                <li>500g Freeze Dried Tuna</li>
+                                <li>500g Freeze Dried Chicken</li>
+                                <li>500g Freeze Dried Quail Egg</li>
+                                <li>500g Freeze Dried Scallops</li>
+                                <li>5 x Pack Feline Paws Dental Chews</li>
+                          
+                        </ul>
+
+                        <div class="ps review">
+                            <p class="price">₱799.00</p>
+                        </div>
+
+                        
+                    </div>
+                        
+                </div>
+                    <div class="desktop tablet">
+                        <h2>Description</h2>
+                        <p>With our Tiki Cat Bundle, you can give your pets the best care possible and keep their whiskers wagging all month long! With a full month's supply of quality cat food included in this special bundle, you can be sure your furry companion will have the nutrition they need to continue being playful and purring.
+                        </p>
+                    </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <div class="fc">
+                <div>
+                   <h5>PAWRKADA</h5>
+                   <p>Fur-tastic treats and paw-some gear for your purr-fect squad of meowkada and barkada! Thanks you, hope we help your tails wags and purr.</p>
+                </div>
+                <div>
+                    <h5>CONTACT US</h5>
+                    <p>Any complaints? Reach us through our email to help us improve our service.</p>
+                    <form action="">
+                        <input type="email" placeholder="Enter email address">
+                        <button type="submit" value="submit">send</button>
+                    </form>
+                </div>
+
+            <div>
+                <h5>NAVIGATION</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Brands</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Faq's
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bf">
+            <div class="ibf">
+                <p>©2024 Pawrkada. All Rights Reserved. Images used for Educational Purposes</p>
+                <hr>
+                <div class="socmed">
+                    <a href=""><img src="images/fb.svg" alt="facebook"></a>
+                    <a href=""><img src="images/x.svg" alt=""></a>
+                    <a href=""><img src="images/ig.svg" alt=""></a>
+                    <a href=""><img src="images/google.svg" alt=""></a>
+                    <p>MADE BY <strong>RYNA MAE DAVID</strong> </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
